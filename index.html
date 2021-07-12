@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    
+    <!-- Firebase --Add Datbase Code here-->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAG9ktbSj4MHzkzvshiRa56rbRAnfPcwzM",
+        authDomain: "multiplayer-database-78f5e.firebaseapp.com",
+        databaseURL: "https://multiplayer-database-78f5e-default-rtdb.firebaseio.com",
+        projectId: "multiplayer-database-78f5e",
+        storageBucket: "multiplayer-database-78f5e.appspot.com",
+        messagingSenderId: "480901192749",
+        appId: "1:480901192749:web:f46e7766c7db2d1072eca4"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
